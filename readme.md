@@ -7,6 +7,26 @@ A small helper to solve wordle puzzles. The application may be started with comm
 
 It is always good to start with the word 'yeast' for reasons Jannika explained to me, which I have since long forgotten.
 
+## Installation
+
+There are several ways to install:
+1. ```
+    git clone https://github.com/paddison/whelper.git
+    cd whelper
+    cargo run -- [options]
+    ```
+2. ```
+    git clone https://github.com/paddison/whelper.git
+    cargo install --path whelper --root /path/to/dir
+    /path/to/dir/bin/whelper [options]
+    ```
+3. ```
+    cargo install --git https://github.com/paddison/whelper.git --root /path/to/dir
+    /path/to/dir/bin/whelper [options]
+    ```
+
+
+
 ## Description
 
 After starting the Application, the user is asked to provide certain inputs in order to filter the possible words. 

@@ -98,11 +98,12 @@ fn main() {
         exit(0);
     }
     let mut words = create_word_list_2();
-
-    // do first filter according from input variables
-    words = filer_one_round(words, Filters::from_hash_map(parsed_args.unwrap()));
-
-    println!("Current options:\n {:?}", words);
+    let unwraped_args = parsed_args.unwrap();
+    if unwraped_args.len() > 0 {
+        // do first filter according from input variables
+        words = filer_one_round(words, Filters::from_hash_map(unwraped_args));
+        println!("Current options:\n {:?}", words);
+    }
 
     // main loop
     while words.len() > 1 {
