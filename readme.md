@@ -9,23 +9,25 @@ It is always good to start with the word 'yeast' for reasons Jannika explained t
 
 ## Installation
 
-There are several ways to install:
-1. ```
-    git clone https://github.com/paddison/whelper.git
-    cd whelper
-    cargo run -- [options]
-    ```
-2. ```
-    git clone https://github.com/paddison/whelper.git
-    cargo install --path whelper --root /path/to/dir
-    /path/to/dir/bin/whelper [options]
-    ```
-3. ```
-    cargo install --git https://github.com/paddison/whelper.git --root /path/to/dir
-    /path/to/dir/bin/whelper [options]
-    ```
+Make sure you have cargo installed on your system. See https://www.rust-lang.org/tools/install for installing cargo and rustup.
 
-
+There are several ways to install whelper:
+```
+git clone https://github.com/paddison/whelper.git
+cd whelper
+cargo run -- [options]
+```
+or
+```
+git clone https://github.com/paddison/whelper.git
+cargo install --path whelper --root /path/to/dir
+/path/to/dir/bin/whelper [options]
+```
+or 
+```
+cargo install --git https://github.com/paddison/whelper.git --root /path/to/dir
+/path/to/dir/bin/whelper [options]
+```
 
 ## Description
 
