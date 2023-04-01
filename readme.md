@@ -2,11 +2,6 @@
    
 A small helper to solve wordle puzzles. The application may be started with commandline arguments listed below under `Usage`.
 
-
-## General tipps
-
-It is always good to start with the word 'yeast' for reasons Jannika explained to me, which I have since long forgotten.
-
 ## Installation
 
 Make sure you have cargo installed on your system. See https://www.rust-lang.org/tools/install for installing cargo and rustup.
